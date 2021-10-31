@@ -31,8 +31,6 @@ class MainAdapter(
       cb: BaseListItemCallback<User>,
 ) : BasePagingDataAdapter<User>( cb , ItemComparator()) {
 
-    var counnt=3
-
     override fun getItemViewType(position: Int): Int {
         return R.layout.item_layout
     }
@@ -44,13 +42,10 @@ class MainAdapter(
                 holder.binding.container.setOnClickListener {
                     callback?.onItemClicked(obj)
                 }
-                var pos=position +1
-                Log.e("position","position"+pos)
-                if(pos % 4  == 0){ counnt += 4
-
+                val pos=position +1
+                if(pos % 4  == 0){
                     holder.binding.imageViewAvataone.visibility=View.VISIBLE
                     holder.binding.imageViewAvatar.visibility=View.INVISIBLE
-                    // holder.binding..setImageDrawable(null)
                 }
                 else{
                     holder.binding.imageViewAvatar.visibility=View.VISIBLE
@@ -59,11 +54,8 @@ class MainAdapter(
             }
             holder.bind(obj, callback, position, 15)
 
-         //   holder.itemView.imageViewAvatar.visibility=View.VISIBLE
-
         }
     }
-
     override fun onViewRecycled(holder: BaseViewHolder) {
         if (holder.binding is ItemLayoutBinding) {
             holder.binding.imageViewAvatar.setImageDrawable(null)

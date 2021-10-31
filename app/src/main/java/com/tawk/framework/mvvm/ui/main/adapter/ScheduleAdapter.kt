@@ -26,8 +26,6 @@ class ScheduleAdapter (val context: Activity,val scheduleList: List<Schedule>, v
     }
 
     override fun getItemCount(): Int {
-
-
         return scheduleList.size
     }
 
@@ -42,10 +40,8 @@ class ScheduleAdapter (val context: Activity,val scheduleList: List<Schedule>, v
             holder.itemView.imgNote.visibility= View.VISIBLE
         }
         if(pos % 4  == 0){
-
             holder.itemView.imageViewAvataone.visibility=View.VISIBLE
             holder.itemView.imageViewAvatar.visibility=View.INVISIBLE
-            // holder.binding..setImageDrawable(null)
         }
         else{
             holder.itemView.imageViewAvatar.visibility=View.VISIBLE
@@ -63,7 +59,6 @@ class ScheduleAdapter (val context: Activity,val scheduleList: List<Schedule>, v
         }
 
     }
-
     inner class CustomViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
     }
 }

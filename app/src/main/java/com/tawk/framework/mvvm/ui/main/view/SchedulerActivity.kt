@@ -78,7 +78,7 @@ class SchedulerActivity : AppCompatActivity(){
              } catch (e: Exception) {
                  offline=true
                  binding.tvName.text=name
-                 binding.tvSecondName.text=name
+                 binding.tvSecondName.text="Name : "+ name
                  binding.tvCompany.text="Company : Not showing of Internet Issues"
                  binding.tvBlog.text="Blog : Not showing of Internet Issues"
                  binding.tvFollowers.text="Followers : N/A "

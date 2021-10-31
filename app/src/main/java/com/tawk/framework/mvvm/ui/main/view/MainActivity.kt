@@ -116,6 +116,7 @@ class MainActivity : AppCompatActivity(), BaseListItemCallback<User> , Scheduler
                 if (da){
 
                     if (offline!!){
+                        showToast(getString(R.string.show_online_message))
                         isActive=false
                         observeLatestDataList()
                         adapters.retry()

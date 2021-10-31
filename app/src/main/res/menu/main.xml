@@ -6,7 +6,7 @@
         android:title="Search"
         android:icon="@drawable/background_chat"
         app:showAsAction="always" />
-    
+
     <item
         android:id="@+id/action_notification"
         android:title="Notification"

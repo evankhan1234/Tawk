@@ -12,30 +12,16 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public  class Util {
-    public static int pxToDp(int px) {
-        return (int)(px / Resources.getSystem().getDisplayMetrics().density);
-    }
     public static boolean isNetworkConnected(Context activity) {
-        Boolean data=false;
+        boolean data;
         ConnectivityManager manager = (ConnectivityManager)activity. getSystemService(CONNECTIVITY_SERVICE);
-
-        //For 3G check
+        //For 4G check
         boolean is3g = manager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE)
                 .isConnectedOrConnecting();
         //For WiFi Check
         boolean isWifi = manager.getNetworkInfo(ConnectivityManager.TYPE_WIFI)
                 .isConnectedOrConnecting();
-
-
-        if (!is3g && !isWifi)
-        {
-            data = false;
-        }
-        else
-        {
-            data = true;
-
-        }
+        data = is3g || isWifi;
         return data;
     }
 

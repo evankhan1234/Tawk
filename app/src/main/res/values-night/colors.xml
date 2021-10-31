@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#000</color>
+    <color name="primaryTextColor">#000</color>
+    <color name="secondaryTextColor">#E94A66</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorGray">#C0C0C0</color>
+    <color name="black">#000</color>
+    <color name="grey">#7a7a7a</color>
+    <color name="lightGrey">#aaaaaa</color>
+    <color name="veryLightGrey">#f0f0f0</color>
+    <color name="veryLightGrey_">#E4E2E2</color>
+    <color name="purple">#7d64e6</color>
+    <color name="shadow_color">#66000000</color>
+    <color name="yellow">#ffee00</color>
+    <color name="screen_bg">#000000</color>
+    <color name="cardBgColor">#111F31</color>
+    <color name="password_button_color">#000000</color>
+</resources>

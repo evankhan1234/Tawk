@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.vihtarb:tooltip-core:1.0.0-alpha05-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f738cec5e9fe13488a4a155c1d0ba958/transformed/jetified-tooltip-core-1.0.0-alpha05-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f738cec5e9fe13488a4a155c1d0ba958/transformed/jetified-tooltip-core-1.0.0-alpha05-SNAPSHOT/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f738cec5e9fe13488a4a155c1d0ba958/transformed/jetified-tooltip-core-1.0.0-alpha05-SNAPSHOT/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.vihtarb/tooltip-core/1.0.0-alpha05-SNAPSHOT/b9497f706f22ddf3444163f22584ada13271876f/tooltip-core-1.0.0-alpha05-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.vihtarb/tooltip-core/1.0.0-alpha05-SNAPSHOT/3b60f59fff9ee9195ada3b18f88d07c1a02bdf25/tooltip-core-1.0.0-alpha05-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

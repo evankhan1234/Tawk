@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View" />
+        <variable
+            name="data"
+            type="com.tawk.framework.mvvm.data.model.User" />
+
+        <variable
+            name="callback"
+            type="com.tawk.framework.mvvm.paging.BaseListItemCallback" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/curve"
+       >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:id="@+id/imageViewAvatar"
+            android:layout_width="70dp"
+            android:layout_height="0dp"
+            app:civ_border_width="1dp"
+            loadChannelImageOne="@{data.avatar_url}"
+            android:padding="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewAvataone"
+            android:layout_width="70dp"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            app:civ_border_width="1dp"
+            loadChannelImage="@{data.avatar_url}"
+            android:padding="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textViewUserName"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="0dp"
+            android:text="@{data.login}"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/imageViewAvatar"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="MindOrks" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgNote"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            loadNote="@{data.note}"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/ic_baseline_note_24" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textViewUserEmail"
+            android:layout_width="0dp"
+            android:textSize="13sp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/textViewUserName"
+            app:layout_constraintTop_toBottomOf="@+id/textViewUserName"
+            android:text="Details" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

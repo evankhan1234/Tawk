@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: jp.wasabeef.transformers:core:1.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bf3284bf13b00290bb936a46bfc7ddb2/transformed/jetified-core-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bf3284bf13b00290bb936a46bfc7ddb2/transformed/jetified-core-1.0.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bf3284bf13b00290bb936a46bfc7ddb2/transformed/jetified-core-1.0.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jp.wasabeef.transformers/core/1.0.3/b631bc64e37098dd7b6f239870fb8ad5c89c53ec/core-1.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jp.wasabeef.transformers/core/1.0.3/938aa710b5903f7f47663a3097d76cd4a2b297b6/core-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

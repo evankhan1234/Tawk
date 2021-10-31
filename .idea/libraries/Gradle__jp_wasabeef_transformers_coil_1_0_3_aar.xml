@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: jp.wasabeef.transformers:coil:1.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9d0544559842ab9820c85513c698cd70/transformed/jetified-coil-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9d0544559842ab9820c85513c698cd70/transformed/jetified-coil-1.0.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9d0544559842ab9820c85513c698cd70/transformed/jetified-coil-1.0.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jp.wasabeef.transformers/coil/1.0.3/b631bc64e37098dd7b6f239870fb8ad5c89c53ec/coil-1.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jp.wasabeef.transformers/coil/1.0.3/d16826948eed1cd21927661183525a436fb01673/coil-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
